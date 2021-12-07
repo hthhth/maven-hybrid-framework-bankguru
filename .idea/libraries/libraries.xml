@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libraries">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libraries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/testng-7.4.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/client-combined-3.141.59-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libraries" recursive="false" />
+  </library>
+</component>
