@@ -1,0 +1,1 @@
+{"uuid":"ffe31935-1c6f-4f7c-b74c-a5ae2d1b5a4a","name":"Bank Guru","children":["2ec4b22c-9a84-4af0-8a4f-6cd614940def"],"befores":[],"afters":[{"name":"cleanExecutableDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638978395826,"stop":1638978401608}],"links":[],"start":1638978383980,"stop":1638978401609}

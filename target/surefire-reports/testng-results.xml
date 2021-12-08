@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Bank Guru" duration-ms="10261" started-at="2021-12-08T06:39:57Z" finished-at="2021-12-08T06:40:07Z">
+  <suite name="Bank Guru" duration-ms="11792" started-at="2021-12-08T15:46:23Z" finished-at="2021-12-08T15:46:35Z">
     <groups>
     </groups>
-    <test name="Run on CHROME" duration-ms="10261" started-at="2021-12-08T06:39:57Z" finished-at="2021-12-08T06:40:07Z">
+    <test name="Run on CHROME" duration-ms="11792" started-at="2021-12-08T15:46:23Z" finished-at="2021-12-08T15:46:35Z">
       <class name="com.bankguru.payment.Level_21_Multiple_Environment">
-        <test-method status="PASS" signature="deleteAllFilesInAllureJSON()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="deleteAllFilesInAllureJSON" is-config="true" duration-ms="61" started-at="2021-12-08T06:39:57Z" finished-at="2021-12-08T06:39:57Z">
+        <test-method status="PASS" signature="deleteAllFilesInAllureJSON()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="deleteAllFilesInAllureJSON" is-config="true" duration-ms="76" started-at="2021-12-08T15:46:24Z" finished-at="2021-12-08T15:46:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInAllureJSON -->
-        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="1" started-at="2021-12-08T06:39:57Z" finished-at="2021-12-08T06:39:57Z">
+        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="3" started-at="2021-12-08T15:46:24Z" finished-at="2021-12-08T15:46:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="beforeClass" is-config="true" duration-ms="9789" started-at="2021-12-08T06:39:57Z" finished-at="2021-12-08T06:40:07Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="beforeClass" is-config="true" duration-ms="11271" started-at="2021-12-08T15:46:24Z" finished-at="2021-12-08T15:46:35Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +31,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Employee_01_Add_New_Employee()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="Employee_01_Add_New_Employee" duration-ms="86" started-at="2021-12-08T06:40:07Z" finished-at="2021-12-08T06:40:07Z">
+        <test-method status="PASS" signature="Employee_01_Add_New_Employee()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="Employee_01_Add_New_Employee" duration-ms="91" started-at="2021-12-08T15:46:35Z" finished-at="2021-12-08T15:46:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_01_Add_New_Employee -->
-        <test-method status="PASS" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="cleanBrowser" is-config="true" duration-ms="2" started-at="2021-12-08T06:40:07Z" finished-at="2021-12-08T06:40:07Z">
+        <test-method status="PASS" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="cleanBrowser" is-config="true" duration-ms="2" started-at="2021-12-08T15:46:35Z" finished-at="2021-12-08T15:46:35Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanBrowser -->
-        <test-method status="PASS" signature="cleanExecutableDriver()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@41394595]" name="cleanExecutableDriver" is-config="true" duration-ms="5801" started-at="2021-12-08T06:40:07Z" finished-at="2021-12-08T06:40:13Z">
+        <test-method status="PASS" signature="cleanExecutableDriver()[pri:0, instance:com.bankguru.payment.Level_21_Multiple_Environment@d1f74b8]" name="cleanExecutableDriver" is-config="true" duration-ms="5782" started-at="2021-12-08T15:46:35Z" finished-at="2021-12-08T15:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanExecutableDriver -->
