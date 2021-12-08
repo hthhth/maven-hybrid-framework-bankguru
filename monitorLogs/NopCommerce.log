@@ -3362,3 +3362,29 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2021-08-29 13:06:51,988]  -------------------------- FAILED -------------------------- 
 [INFO ] [2021-08-29 13:06:52,487] Post-Condition: Close browser 'chrome'
 [INFO ] [2021-08-29 13:06:52,535] OS name = windows 7
+[INFO ] [2021-12-07 13:00:36,734] Pre-Condition - Step 01: Open browser 'chrome' and navigate to 'https://opensource-demo.orangehrmlive.com/'
+[INFO ] [2021-12-07 13:00:46,280] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-12-07 13:00:50,407] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-12-07 13:00:55,691] -------------WARNING-------------
+https://opensource-demo.orangehrmlive.com/webres_618e67a57beec1.83834480/js/jquery/jquery-3.4.1.min.js 1 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+[INFO ] [2021-12-07 13:00:55,692] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2021-12-07 13:00:56,583] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-07 13:00:56,772] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox
+[INFO ] [2021-12-07 13:00:56,964] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2021-12-07 13:00:57,019] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-12-07 13:00:57,164] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+[INFO ] [2021-12-07 13:00:57,345] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+[INFO ] [2021-12-07 13:00:57,520] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox
+[INFO ] [2021-12-07 13:00:57,696] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2021-12-07 13:00:57,830] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-12-07 13:00:57,951] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2021-12-07 13:01:00,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-07 13:01:00,873] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+[INFO ] [2021-12-07 13:01:01,054] Add_New_01 - Step 14: Click to 'Search' button
+[INFO ] [2021-12-07 13:01:02,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-07 13:01:02,420] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+[INFO ] [2021-12-07 13:01:02,507]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-07 13:01:02,621]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-07 13:01:02,714]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-07 13:01:03,285] Post-Condition: Close browser 'chrome'
+[INFO ] [2021-12-07 13:01:03,355] OS name = windows 7

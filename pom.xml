@@ -23,6 +23,7 @@
         <jackson.version>2.9.4</jackson.version>
         <webdrivermanager.version>4.4.3</webdrivermanager.version>
         <aspectj.version>1.8.10</aspectj.version>
+        <environment>DEV</environment>
 
     </properties>
     <dependencies>
@@ -163,7 +164,7 @@
                 <configuration>
                     <!-- Run TestNG xml file -->
                     <suiteXmlFiles>
-                        <file>src/test/resources/runHRMTestcases.xml</file>
+                        <file>src/test/resources/runBankGuru${environment}.xml</file>
                     </suiteXmlFiles>
 
                     <!-- Argument -->

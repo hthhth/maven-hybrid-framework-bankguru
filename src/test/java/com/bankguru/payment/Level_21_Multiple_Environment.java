@@ -1,8 +1,6 @@
 package com.bankguru.payment;
 
 import commons.BaseTest;
-import environmentConfig.Environment;
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -11,16 +9,12 @@ import org.testng.annotations.Test;
 
 public class Level_21_Multiple_Environment extends BaseTest {
     WebDriver driver;
-    Environment environment;
 
     @Parameters({"browser", "url"})
     @BeforeClass
     public void beforeClass(String browserName, String appUrl) {
-        ConfigFactory.setProperty("env", appUrl);
 
-        environment = ConfigFactory.create(Environment.class);
-
-        driver = getBrowserDriver(browserName, environment.appUrl());
+        driver = getBrowserDriver(browserName, appUrl);
         System.out.println(driver.getCurrentUrl());
     }
     @Test

@@ -32,6 +32,7 @@ pageObjects\liveGuru\LoginPageObject.class
 pageObjects\saucelab\PageGenerator.class
 utilities\MailConfig.class
 pageUIs\facebook\RegisterPageUI.class
+retryConfig\RetryTestFailed.class
 pageObjects\jQuery\PageGeneratorManager.class
 pageUIs\hrm\LoginPageUI.class
 environmentConfig\Environment.class
@@ -52,9 +53,9 @@ reportConfig\ReportNGListener.class
 commons\BaseTest.class
 commons\TestNGAppender.class
 utilities\PropertiesConfig.class
+retryConfig\RetryListener.class
 pageObjects\user\nopCommerce\MyAccountPageObject.class
 pageObjects\user\nopCommerce\OrderPageObject.class
-retryConfig\RetryFailTestListener.class
 pageObjects\admin\nopCommerce\PageGeneratorManager.class
 pageUIs\user\nopCommerce\LoginPageUI.class
 pageObjects\admin\nopCommerce\DashboardPageObject.class
